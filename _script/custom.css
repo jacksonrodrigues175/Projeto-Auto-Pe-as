@@ -1,0 +1,30 @@
+
+body{
+    margin: 40px 10px;
+    padding: 0;
+    font-family: Arial, Helvetica Neve, Helvetica, sans-serif;
+}
+
+#calendar{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.download-button {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .download-button i {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .download-button:hover i {
+    opacity: 1;
+  }
